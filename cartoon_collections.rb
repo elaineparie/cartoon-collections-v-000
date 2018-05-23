@@ -17,12 +17,10 @@ end
 
 
 def find_the_cheese(snacks)
-  cheese = String.new
-
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese << if snacks.include?{|snack| snack == cheese_types}
+  if snacks.include?{|snack| snack == cheese_types}
+    cheese_types
   else
   nil
 end
-cheese
 end
