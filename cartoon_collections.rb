@@ -19,7 +19,7 @@ end
 def find_the_cheese(snacks)
   cheese = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-cheese << if snacks.find{|snack| snack == cheese_types}
+cheese << if snacks.find(cheese_types)
 end
 cheese.join
 end
