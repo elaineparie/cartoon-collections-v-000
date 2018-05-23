@@ -20,7 +20,7 @@ def find_the_cheese(snacks)
   cheese = String.new
 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if snacks.include?{|i| i == cheese_types}
+  if snacks.include?{|i| i == (cheese_types)}
   cheese << puts cheese_types
   else
   nil
