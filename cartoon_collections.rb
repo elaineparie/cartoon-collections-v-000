@@ -17,6 +17,8 @@ end
 
 
 def find_the_cheese(snacks)
+  cheese = String.new
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.include?(cheese_types)
+  cheese << snacks.include?(cheese_types)
+  cheese
 end
