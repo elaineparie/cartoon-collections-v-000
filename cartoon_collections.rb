@@ -17,8 +17,7 @@ end
 
 
 def find_the_cheese(snacks)
-  cheese = String.new
+  #cheese = String.new
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese = snacks.select{|snack| snack.include?(cheese_types)}
-  cheese.join
+  snacks.select{|snack| snack.include?(cheese_types)}
 end
