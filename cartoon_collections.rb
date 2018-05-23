@@ -12,6 +12,7 @@ end
 end
 
 def long_planeteer_calls(calls)
+  calls.split
   calls.any? {|i| i > 4}
 end
 
