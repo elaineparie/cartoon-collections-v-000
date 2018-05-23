@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.select do |i|
+  snacks.detect do |i|
     if i == cheese_types
     else
       nil
