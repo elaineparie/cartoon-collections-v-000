@@ -17,11 +17,13 @@ end
 
 
 def find_the_cheese(snacks)
+  cheese = ""
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.detect do |i|
-    if i == cheese_types
+  cheese <<  if i == cheese_types
     else
       nil
 end
+cheese
 end
 end
